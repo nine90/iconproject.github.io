@@ -1,0 +1,116 @@
+*{
+	padding:0 ;
+	margin: 0;
+	font-family: 'Source Serif Pro', serif;
+	box-sizing: border-box;
+	
+	
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+
+
+}
+.logo{
+	font-size: 35px;
+	word-spacing: 1px;
+	cursor: pointer;
+}
+span{
+	color:rgb(240, 83, 83);
+}
+
+.first {
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-image:url(./bg.jpg);
+	background-position: center;
+}
+nav ul li{
+	display: inline-block;
+	padding: 10px 25px;
+	list-style-type: none;
+}
+nav ul li a{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color:rgb(240, 83, 83);	
+	transition: .3s;
+		
+}
+.btn{	
+	background-color: rgb(240, 83, 83);
+	color: black;
+	border: 2px solid transparent;
+	text-decoration: none;
+	border-radius: 20px;
+	padding: 10px 25px;
+	font-weight:bold ;
+	transition: tranform .4s;
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+.content{
+	position: absolute;
+	top: 50%;
+	left: 8%;
+	transform: translateY(-50px);
+}
+h1{
+	color: black;
+	font-weight: bold;
+	font-size: 80px;
+	margin: 20px 0px 20px;
+
+}
+h4{
+	color: black;
+	letter-spacing: 2px;
+	font-size: 35px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+h3{
+	color: black;
+	font-weight: bold;
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+
+.new form{
+	width: 380px;
+	max-width: 100%;
+	position: relative;
+}
+.new form input:first-child{
+	display: inline-block;
+	width: 100%;
+	border: 1px solid  rgb(240, 83, 83);
+	outline: none;
+	border-radius: 30px;
+	padding: 14px 100px 14px 12px;
+}
+.new form input:last-child{
+	display: inline-block;
+	position: absolute;
+	border: none ;
+	outline: none;
+	padding: 10px 30px;
+	border-radius: 20px;
+	background-color:rgb(240, 83, 83) ;
+	top: 6px;
+	right: 6px;
+}
+span{
+	color:rgb(240, 83, 83)
+}
